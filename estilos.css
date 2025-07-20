@@ -7,7 +7,7 @@ etiqueta{}
 }*/
 
 body {
-    background: #efeeee;
+    background: #dee8f8;
     padding: 0;
     margin: 0;
 }
@@ -29,7 +29,7 @@ a{
 }
 
 a:hover{
-    color: rgb(17, 143, 143);
+    color: #1d224e;
     background: #afaeae;
 }
 
@@ -45,17 +45,22 @@ a:hover{
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 150px;
     /* border: 1px solid yellow; */
     border-radius: 50%
 }
 
 span{
-    border: 1px solid #107a10;
-    color:#107a1d;
+    border: 1px solid #1d224e;
+    color:#1d224e;
     border-radius: 15px;
-    padding: 0.30rem;
-    background: #c1d8ba;
+    padding: 05px;
+    background: #babad8;
     margin-left: 15px;
+}
+
+span:hover{
+    color: #e3e4eb;
+    background: #434457;
 }
